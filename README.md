@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 ## Hash Table
 |  |
 | ------- |
@@ -32,4 +33,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
+## Matrix
+|  |
+| ------- |
+| [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 <!---LeetCode Topics End-->
