@@ -26,10 +26,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/SaranshOp/LeetHub-OP/tree/master/0605-can-place-flowers) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
+| [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -45,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 ## Stack
 |  |
@@ -78,4 +81,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
+## Counting
+|  |
+| ------- |
+| [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 <!---LeetCode Topics End-->
