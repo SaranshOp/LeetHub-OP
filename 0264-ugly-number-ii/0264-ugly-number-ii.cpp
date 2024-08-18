@@ -1,31 +1,33 @@
 class Solution {
 public:
     int nthUglyNumber(int n) {
-        // Min-heap to store and retrieve the smallest ugly number
-        priority_queue<long, vector<long>, greater<long>> minHeap;
-        unordered_set<long> seenNumbers;  // Set to avoid duplicates
-        vector<int> primeFactors = {
-            2, 3, 5};  // Factors for generating new ugly numbers
+        vector<long> uglynumber(n);
 
-        minHeap.push(1);
-        seenNumbers.insert(1);
+        long index2=0, index3=0, index5=0;
+        long index2v,index3v,index5v;
 
-        long currentUgly = 1;
-        for (int i = 0; i < n; ++i) {
-            currentUgly = minHeap.top();  // Get the smallest number
-            minHeap.pop();                // Remove it from the heap
+        uglynumber[0]=1;
+        for(int i=1;i<n;i++){
 
-            // Generate and push the next ugly numbers
-            for (int prime : primeFactors) {
-                long nextUgly = currentUgly * prime;
-                if (seenNumbers.find(nextUgly) ==
-                    seenNumbers.end()) {  // Avoid duplicates
-                    minHeap.push(nextUgly);
-                    seenNumbers.insert(nextUgly);
-                }
+            index2v = uglynumber[index2]*2;
+            index3v = uglynumber[index3]*3;
+            index5v = uglynumber[index5]*5;
+            long mini = min({index2v,index3v,index5v});
+            if(mini == index2v){
+                uglynumber[i]= mini;
+                index2++;
             }
-        }
+            if(mini == index3v){
+                uglynumber[i]= mini;
+                index3++;
+            }
+            if(mini == index5v){
+                uglynumber[i]= mini;
+                index5++;
+            }
 
-        return static_cast<int>(currentUgly);  // Return the nth ugly number
+        }
+        return uglynumber[n-1];
+
     }
 };
