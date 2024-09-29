@@ -1,80 +1,43 @@
 class Solution
 {
 public:
+    bool isVowel(char c)
+    {
+        return (c == 'a') || (c == 'e') || (c == 'i') || (c == 'o') ||
+               (c == 'u');
+    }
     int countOfSubstrings(string word, int k)
     {
-
-        int n = word.size();
+        int ans = 0;
         unordered_map<char, int> mp;
-        set<char> vowels = {'a', 'e', 'i', 'o', 'u'};
-        for (auto c : vowels)
+        for (int i = 0; i < word.size(); i++)
         {
-            mp[c] = 0;
-        }
-        int vowel_count = 0;
-        int consonent_count = 0;
-        int start = 0;
-        int count = 0;
-
-        for (int i = 0; i < n; i++)
-        {
-            if (vowels.find(word[i]) != vowels.end())
+            //cout << "i: " << i << endl;
+            int cCount = 0, vCount = 0;
+            mp.clear(); // was missing this line
+            for (int j = i; j < word.size(); j++)
             {
-                vowel_count++;
-                mp[word[i]]++;
-            }
-            else
-            {
-                consonent_count++;
-            }
-            while (consonent_count > k)
-            {
-                if (vowels.find(word[start]) != vowels.end())
+                //cout << word[j] << " ";
+                if (isVowel(word[j]))
                 {
-                    vowel_count--;
-                    mp[word[start]]--;
+                    mp[word[j]]++;
+                    if (mp[word[j]] == 1)
+                        vCount++;
                 }
                 else
                 {
-                    consonent_count--;
+                    cCount++;
                 }
-                start++;
-            }
-            int f = 0;
-            //cout << vowel_count << " " << consonent_count << endl;
-            if (consonent_count == k && vowel_count >= 5)
-            {
-                //cout << word.substr(start, i - start + 1) << endl;
-                for (auto c : mp)
+                //cout << vCount << " " << cCount << endl;
+                if (vCount == 5 && cCount == k)
                 {
-                    if (c.second == 0)
-                    {
-                        f = 1;
-                        break;
-                    }
+                    ans++;
+                    //cout << ans << endl;
                 }
-
-                if (!f)
-                {
-                    //cout << "here" << endl;
-                    count++;
-                    int j = start;
-                    unordered_map<char, int> mp1 = mp; 
-                    while (!f && j <= i)
-                    {
-                        if (mp1[word[j]] == 1 || vowels.find(word[j]) == vowels.end())
-                        {
-                            //cout << "here" << endl;
-                            break;
-                        }
-                        //cout << "j: " << j << " " << word[j] << endl;
-                        count++;
-                        mp1[word[j]]--;
-                        j++;
-                    }
-                }
+                if (cCount > k)
+                    break;
             }
         }
-        return count;
+        return ans;
     }
 };
