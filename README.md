@@ -129,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/0264-ugly-number-ii) |
 | [0670-maximum-swap](https://github.com/SaranshOp/LeetHub-OP/tree/master/0670-maximum-swap) |
+| [0795-k-th-symbol-in-grammar](https://github.com/SaranshOp/LeetHub-OP/tree/master/0795-k-th-symbol-in-grammar) |
 ## Graph
 |  |
 | ------- |
@@ -163,5 +164,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Recursion
 |  |
 | ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/SaranshOp/LeetHub-OP/tree/master/0795-k-th-symbol-in-grammar) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/1667-find-kth-bit-in-nth-binary-string) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0795-k-th-symbol-in-grammar](https://github.com/SaranshOp/LeetHub-OP/tree/master/0795-k-th-symbol-in-grammar) |
 <!---LeetCode Topics End-->
