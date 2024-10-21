@@ -60,6 +60,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/SaranshOp/LeetHub-OP/tree/master/0011-container-with-most-water) |
 | [0605-can-place-flowers](https://github.com/SaranshOp/LeetHub-OP/tree/master/0605-can-place-flowers) |
+| [0649-dota2-senate](https://github.com/SaranshOp/LeetHub-OP/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/SaranshOp/LeetHub-OP/tree/master/0670-maximum-swap) |
 | [0890-lemonade-change](https://github.com/SaranshOp/LeetHub-OP/tree/master/0890-lemonade-change) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
@@ -70,6 +71,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0151-reverse-words-in-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
 | [0394-decode-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0394-decode-string) |
+| [0649-dota2-senate](https://github.com/SaranshOp/LeetHub-OP/tree/master/0649-dota2-senate) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
@@ -159,6 +161,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Queue
 |  |
 | ------- |
+| [0649-dota2-senate](https://github.com/SaranshOp/LeetHub-OP/tree/master/0649-dota2-senate) |
 | [0969-number-of-recent-calls](https://github.com/SaranshOp/LeetHub-OP/tree/master/0969-number-of-recent-calls) |
 ## Sorting
 |  |
