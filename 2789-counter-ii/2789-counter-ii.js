@@ -5,18 +5,9 @@
 var createCounter = function(init) {
     const resetv = init
     return {
-        increment: ()=>{
-            ++init;
-            return init
-        },
-        decrement: ()=>{
-            --init;
-            return init
-        },
-        reset: ()=>{
-            init = resetv;
-            return init
-        }
+        increment: ()=>++init,
+        decrement: ()=>--init,
+        reset: ()=> init = resetv,
     }
 };
 
