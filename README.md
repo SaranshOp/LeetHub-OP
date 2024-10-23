@@ -46,6 +46,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/SaranshOp/LeetHub-OP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -98,6 +99,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Design
 |  |
 | ------- |
@@ -119,6 +121,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Data Stream
 |  |
 | ------- |
@@ -191,10 +194,15 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+| [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Database
 |  |
 | ------- |
 | [0176-second-highest-salary](https://github.com/SaranshOp/LeetHub-OP/tree/master/0176-second-highest-salary) |
 | [0177-nth-highest-salary](https://github.com/SaranshOp/LeetHub-OP/tree/master/0177-nth-highest-salary) |
 | [0262-trips-and-users](https://github.com/SaranshOp/LeetHub-OP/tree/master/0262-trips-and-users) |
+## Depth-First Search
+|  |
+| ------- |
+| [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 <!---LeetCode Topics End-->
