@@ -1,26 +1,68 @@
+-- SELECT 
+--   request_at AS Day, 
+--   ROUND(
+--     SUM(status != 'completed') / COUNT(*), 
+--     2
+--   ) AS 'Cancellation Rate' 
+-- FROM 
+--   Trips 
+--   LEFT JOIN Users AS Clients ON Trips.client_id = Clients.users_id 
+--   LEFT JOIN Users AS Drivers ON Trips.driver_id = Drivers.users_id 
+-- WHERE 
+--   Clients.banned = 'No' 
+--   AND Drivers.banned = 'No' 
+--   AND request_at BETWEEN '2013-10-01' 
+--   AND '2013-10-03' 
+-- GROUP BY Day
+
+
 select 
     request_at as Day,
-    round(sum(case when status like 'cancelled%' then 1.00 else 0 end)/count(status), 2) as "Cancellation Rate"
-from Trips t
-    join Users u on t.client_id = u.users_id and u.banned = 'No'
-    join Users us on t.driver_id = us.users_id and us.banned = 'No'
-where request_at between '2013-10-01' AND '2013-10-03'
-    and u.banned = 'No'
+    round(sum(case when status like 'cancelled%' then 1.00 else 0 end) / count(status), 2) as "Cancellation Rate"
+from (
+    select t.request_at, t.status
+    from Trips t
+    where t.driver_id not in (
+        select u.users_id 
+        from Users u 
+        where u.banned = 'Yes'
+    ) 
+        and t.client_id not in (
+        select u.users_id 
+        from Users u 
+        where u.banned = 'Yes'
+    ) 
+        and request_at between '2013-10-01' AND '2013-10-03'
+) as derived_table_alias
 group by request_at;
 
 
--- select 
---     request_at as Day,
---     round(sum(case when status like 'cancelled%' then 1.00 else 0 end) / count(status), 2) as "Cancellation Rate"
--- from (
---     select t.request_at, t.status
---     from Trips t, Users u, (
---         select u.users_id 
---         from Users u 
---         where u.banned = 'No'
---     ) as us
---     where us.users_id = t.client_id 
---         and us.users_id = t.driver_id 
---         and request_at between '2013-10-01' AND '2013-10-03'
--- ) subquery
--- group by request_at;
+-- SELECT 
+--   request_at AS Day, 
+--   ROUND(
+--     SUM(status != 'completed') / COUNT(status), 
+--     2
+--   ) AS 'Cancellation Rate' 
+-- FROM 
+--   Trips 
+-- WHERE 
+--   request_at BETWEEN '2013-10-01' 
+--   AND '2013-10-03' 
+--   AND driver_id NOT IN (
+--     SELECT 
+--       users_id 
+--     FROM 
+--       Users 
+--     WHERE 
+--       banned = 'Yes'
+--   ) 
+--   AND client_id NOT IN (
+--     SELECT 
+--       users_id 
+--     FROM 
+--       Users 
+--     WHERE 
+--       banned = 'Yes'
+--   ) 
+-- GROUP BY 
+--   Day
