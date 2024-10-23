@@ -191,4 +191,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
+## Database
+|  |
+| ------- |
+| [0176-second-highest-salary](https://github.com/SaranshOp/LeetHub-OP/tree/master/0176-second-highest-salary) |
 <!---LeetCode Topics End-->
