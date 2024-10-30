@@ -25,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0011-container-with-most-water](https://github.com/SaranshOp/LeetHub-OP/tree/master/0011-container-with-most-water) |
 | [0238-product-of-array-except-self](https://github.com/SaranshOp/LeetHub-OP/tree/master/0238-product-of-array-except-self) |
+| [0300-longest-increasing-subsequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/0300-longest-increasing-subsequence) |
 | [0495-teemo-attacking](https://github.com/SaranshOp/LeetHub-OP/tree/master/0495-teemo-attacking) |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
 | [0605-can-place-flowers](https://github.com/SaranshOp/LeetHub-OP/tree/master/0605-can-place-flowers) |
@@ -110,6 +111,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Binary Search Tree
 |  |
 | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/0300-longest-increasing-subsequence) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Heap (Priority Queue)
 |  |
@@ -137,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0264-ugly-number-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/0264-ugly-number-ii) |
+| [0300-longest-increasing-subsequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/0300-longest-increasing-subsequence) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/SaranshOp/LeetHub-OP/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
