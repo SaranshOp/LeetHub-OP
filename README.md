@@ -90,6 +90,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 | [2580-circular-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/2580-circular-sentence) |
+| [3451-string-compression-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/3451-string-compression-iii) |
 ## Stack
 |  |
 | ------- |
