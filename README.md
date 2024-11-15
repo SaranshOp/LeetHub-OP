@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1325-path-with-maximum-probability](https://github.com/SaranshOp/LeetHub-OP/tree/master/1325-path-with-maximum-probability) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
 | [1940-maximum-xor-for-each-query](https://github.com/SaranshOp/LeetHub-OP/tree/master/1940-maximum-xor-for-each-query) |
@@ -105,6 +106,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0394-decode-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0394-decode-string) |
 | [0735-asteroid-collision](https://github.com/SaranshOp/LeetHub-OP/tree/master/0735-asteroid-collision) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
@@ -130,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0300-longest-increasing-subsequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/0300-longest-increasing-subsequence) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/SaranshOp/LeetHub-OP/tree/master/2179-most-beautiful-item-for-each-query) |
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/SaranshOp/LeetHub-OP/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
@@ -194,6 +197,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/SaranshOp/LeetHub-OP/tree/master/0011-container-with-most-water) |
 | [0151-reverse-words-in-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SaranshOp/LeetHub-OP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
@@ -253,4 +257,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2716-prime-subtraction-operation](https://github.com/SaranshOp/LeetHub-OP/tree/master/2716-prime-subtraction-operation) |
+## Monotonic Stack
+|  |
+| ------- |
+| [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 <!---LeetCode Topics End-->
