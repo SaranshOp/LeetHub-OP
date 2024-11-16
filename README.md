@@ -50,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2699-count-the-number-of-fair-pairs](https://github.com/SaranshOp/LeetHub-OP/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/SaranshOp/LeetHub-OP/tree/master/2716-prime-subtraction-operation) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -191,6 +192,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
 | ------- |
