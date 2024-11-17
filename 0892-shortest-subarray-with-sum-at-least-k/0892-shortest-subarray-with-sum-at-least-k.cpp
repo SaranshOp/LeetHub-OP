@@ -2,41 +2,34 @@ class Solution {
 public:
     int shortestSubarray(vector<int>& nums, int k) {
         int n = nums.size();
-
-        // Initialize result to the maximum possible integer value
-        int shortestSubarrayLength = INT_MAX;
-
-        long long cumulativeSum = 0;
-
-        // Min-heap to store cumulative sum and its corresponding index
-        priority_queue<pair<long long, int>, vector<pair<long long, int>>,
-                       greater<>>
-            prefixSumHeap;
+        long long sum = 0; // Use long long for sum to prevent overflow
+        int minL = INT_MAX; // Initialize minL to the maximum possible integer value
+        deque<pair<long long, int>> dq; // Use a deque to store pairs of (cumulative sum, index)
 
         // Iterate through the array
         for (int i = 0; i < n; i++) {
-            // Update cumulative sum
-            cumulativeSum += nums[i];
+            sum += nums[i];
 
-            // If cumulative sum is already >= k, update shortest length
-            if (cumulativeSum >= k) {
-                shortestSubarrayLength = min(shortestSubarrayLength, i + 1);
+            // Check if the sum from the start to current index is enough
+            if (sum >= k) {
+                minL = min(minL, i + 1);
             }
 
-            // Remove subarrays from heap that can form a valid subarray
-            while (!prefixSumHeap.empty() &&
-                   cumulativeSum - prefixSumHeap.top().first >= k) {
-                // Update shortest subarray length
-                shortestSubarrayLength =
-                    min(shortestSubarrayLength, i - prefixSumHeap.top().second);
-                prefixSumHeap.pop();
+            // Remove elements from the deque if they can form a valid subarray
+            while (!dq.empty() && sum - dq.front().first >= k) {
+                minL = min(minL, i - dq.front().second);
+                dq.pop_front();
             }
 
-            // Add current cumulative sum and index to heap
-            prefixSumHeap.emplace(cumulativeSum, i);
+            // Maintain the deque in increasing order of cumulative sum
+            while (!dq.empty() && sum < dq.back().first) {
+                dq.pop_back();
+            }
+
+            dq.push_back({sum, i});
         }
 
-        // Return -1 if no valid subarray found
-        return shortestSubarrayLength == INT_MAX ? -1 : shortestSubarrayLength;
+        // Return -1 if no valid subarray found, otherwise return minL
+        return minL == INT_MAX ? -1 : minL;
     }
 };
