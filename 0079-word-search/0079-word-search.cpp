@@ -1,45 +1,44 @@
 class Solution {
 public:
-    vector<int> dirj = {-1, 0, +1, 0};  // Directions for column movement (left, down, right, up)
-    vector<int> diri = {0, -1, 0, +1};  // Directions for row movement (up, left, down, right)
+    vector<int> dirj = {-1, 0, +1, 0};  // Directions for column movement
+    vector<int> diri = {0, -1, 0, +1};  // Directions for row movement 
     vector<vector<bool>> isVisited;
     int m, n;
 
     bool exist(vector<vector<char>>& board, string word) {
         m = board.size();
         n = board[0].size();
-        isVisited = vector<vector<bool>>(m, vector<bool>(n, false)); // Initialize visited array
+        isVisited = vector<vector<bool>>(m, vector<bool>(n, false)); 
 
         for (int i = 0; i < m; i++) {
             for (int j = 0; j < n; j++) {
-                if (dfs(board, word, i, j, 0)) {  // Start DFS from each cell
-                    return true; // If the word is found, return true
+                if (dfs(board, word, i, j, 0)) {  
+                    return true;
                 }
             }
         }
-        return false; // If the word is not found after exploring all cells
+        return false; 
     }
 
 private:
     bool dfs(vector<vector<char>>& board, const string& word, int i, int j, int p) {
         if (p == word.size()) {
-            return true; // All characters in the word are matched
+            return true; 
         }
         if (i < 0 || i >= m || j < 0 || j >= n || isVisited[i][j] || board[i][j] != word[p]) {
-            return false; // Out of bounds or already visited or character does not match
+            return false; 
         }
 
-        isVisited[i][j] = true; // Mark the cell as visited
-
-        for (int k = 0; k < 4; k++) { // Explore all four directions
+        isVisited[i][j] = true;
+        for (int k = 0; k < 4; k++) { 
             int di = i + diri[k];
             int dj = j + dirj[k];
-            if (dfs(board, word, di, dj, p + 1)) { // Recursively call DFS
+            if (dfs(board, word, di, dj, p + 1)) { 
                 return true;
             }
         }
 
-        isVisited[i][j] = false; // Backtrack: unmark the cell
-        return false; // Return false if the word is not found
+        isVisited[i][j] = false;
+        return false; 
     }
 };
