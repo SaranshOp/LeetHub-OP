@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/SaranshOp/LeetHub-OP/tree/master/0011-container-with-most-water) |
+| [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [0120-triangle](https://github.com/SaranshOp/LeetHub-OP/tree/master/0120-triangle) |
 | [0209-minimum-size-subarray-sum](https://github.com/SaranshOp/LeetHub-OP/tree/master/0209-minimum-size-subarray-sum) |
 | [0238-product-of-array-except-self](https://github.com/SaranshOp/LeetHub-OP/tree/master/0238-product-of-array-except-self) |
@@ -75,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
@@ -92,6 +94,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [0151-reverse-words-in-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
 | [0394-decode-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0394-decode-string) |
@@ -245,6 +248,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Backtracking
 |  |
 | ------- |
+| [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 ## Breadth-First Search
 |  |
