@@ -1,40 +1,33 @@
 class Solution {
 public:
     int takeCharacters(string s, int k) {
-        //cout << "s" << s << endl;
-        int n = s.size();
-        cout << "n" << n << endl;
-        int i = 0, j = 0, maxi = 0;
-        vector<int> count(3, 0);
-        for (auto k : s) {
-            count[k - 'a']++;
+        
+       
+        
+        
+      int ca=0,cb=0,cc=0;
+        int n=s.size();
+        int ans=n;
+        for(int i=0;i<n;i++){
+            if(s[i]=='a') ca++;
+            if(s[i]=='b') cb++;
+            if(s[i]=='c') cc++;
         }
-        if (!valid(count, k))
-            return -1;
-
-        cout << "count " << count[0] << " " << count[1] << " " << count[2]
-             << endl;
-        while (j < n) {
-            //cout << "j" << j << endl;
-            int ele = s[j];
-            count[ele - 'a']--;
-            if (valid(count, k)) {
-                maxi = max(maxi, j - i + 1);
-                cout << "maxi " << maxi << endl;
+        if(ca<k||cb<k||cc<k) return -1;
+        int i=n-1,j=n-1;
+        while(i>=0){
+            if(s[i]=='a') ca--;
+            if(s[i]=='b') cb--;
+            if(s[i]=='c') cc--;
+            while(ca<k||cb<k||cc<k){
+            if(s[j]=='a') ca++;
+            if(s[j]=='b') cb++;
+            if(s[j]=='c') cc++;
+                j--;
             }
-            while (i <= j && !valid(count, k)) {
-                cout << "i" << i << endl;
-                int ele2 = s[i];
-                count[ele2 - 'a']++;
-                i++;
-            }
-            j++;
+            ans=min(ans,i+n-1-j); i--;
         }
-        return n - maxi;
-    }
-
-private:
-    bool valid(vector<int> count, int k) {
-        return !(count[0] < k || count[1] < k || count[2] < k);
+        return ans;
+    
     }
 };
