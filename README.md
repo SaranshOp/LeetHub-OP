@@ -64,6 +64,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SaranshOp/LeetHub-OP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/SaranshOp/LeetHub-OP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Prefix Sum
 |  |
@@ -109,6 +110,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 | [2580-circular-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/2580-circular-sentence) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3451-string-compression-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/3451-string-compression-iii) |
 ## Stack
 |  |
@@ -206,6 +208,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/SaranshOp/LeetHub-OP/tree/master/1755-defuse-the-bomb) |
+| [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
