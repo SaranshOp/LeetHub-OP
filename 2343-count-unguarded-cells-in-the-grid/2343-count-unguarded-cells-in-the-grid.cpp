@@ -1,79 +1,58 @@
+#include <vector>
+#include <set>
+using namespace std;
+
 class Solution {
 public:
-    const int UNGUARDED = 0;
-    const int GUARDED = 1;
-    const int GUARD = 2;
-    const int WALL = 3;
+    int countUnguarded(int m, int n, vector<vector<int>>& guards, vector<vector<int>>& walls) {
+   
+        vector<int> diri = {0, 0, 1, -1};
+        vector<int> dirj = {-1, 1, 0, 0};
 
-    int countUnguarded(int m, int n, vector<vector<int>>& guards,
-                       vector<vector<int>>& walls) {
-        vector<vector<int>> grid(m, vector<int>(n, UNGUARDED));
+        vector<vector<bool>> isGuarded(m, vector<bool>(n, true));
+        set<pair<int, int>> obstacles; 
 
-        // Mark guards' positions
-        for (const auto& guard : guards) {
-            grid[guard[0]][guard[1]] = GUARD;
+        for (auto& g : guards) {
+            obstacles.insert({g[0], g[1]});
+            isGuarded[g[0]][g[1]] = false; 
+        }
+        for (auto& w : walls) {
+            obstacles.insert({w[0], w[1]});
+            isGuarded[w[0]][w[1]] = false;
         }
 
-        // Mark walls' positions
-        for (const auto& wall : walls) {
-            grid[wall[0]][wall[1]] = WALL;
-        }
+        for (auto& g : guards) {
+            int i = g[0];
+            int j = g[1];
+            for (int d = 0; d < 4; d++) {
+                int di = i;
+                int dj = j;
 
-        // Helper lambda to update visibility
-        auto updateCellVisibility = [&](int row, int col,
-                                        bool isGuardLineActive) -> bool {
-            if (grid[row][col] == GUARD) {
-                return true;
-            }
-            if (grid[row][col] == WALL) {
-                return false;
-            }
-            if (isGuardLineActive) {
-                grid[row][col] = GUARDED;
-            }
-            return isGuardLineActive;
-        };
+            
+                while (true) {
+                    di += diri[d];
+                    dj += dirj[d];
 
-        // Horizontal passes
-        for (int row = 0; row < m; row++) {
-            bool isGuardLineActive = grid[row][0] == GUARD;
-            for (int col = 1; col < n; col++) {
-                isGuardLineActive =
-                    updateCellVisibility(row, col, isGuardLineActive);
-            }
+               
+                    if (di < 0 || di >= m || dj < 0 || dj >= n) break;
 
-            isGuardLineActive = grid[row][n - 1] == GUARD;
-            for (int col = n - 2; col >= 0; col--) {
-                isGuardLineActive =
-                    updateCellVisibility(row, col, isGuardLineActive);
-            }
-        }
+              
+                    if (obstacles.find({di, dj}) != obstacles.end()) break;
 
-        // Vertical passes
-        for (int col = 0; col < n; col++) {
-            bool isGuardLineActive = grid[0][col] == GUARD;
-            for (int row = 1; row < m; row++) {
-                isGuardLineActive =
-                    updateCellVisibility(row, col, isGuardLineActive);
-            }
-
-            isGuardLineActive = grid[m - 1][col] == GUARD;
-            for (int row = m - 2; row >= 0; row--) {
-                isGuardLineActive =
-                    updateCellVisibility(row, col, isGuardLineActive);
-            }
-        }
-
-        // Count unguarded cells
-        int count = 0;
-        for (int row = 0; row < m; row++) {
-            for (int col = 0; col < n; col++) {
-                if (grid[row][col] == UNGUARDED) {
-                    count++;
+                
+                    isGuarded[di][dj] = false;
                 }
             }
         }
 
-        return count;
+
+        int unguardedCount = 0;
+        for (int i = 0; i < m; i++) {
+            for (int j = 0; j < n; j++) {
+                if (isGuarded[i][j]) unguardedCount++;
+            }
+        }
+
+        return unguardedCount;
     }
 };
