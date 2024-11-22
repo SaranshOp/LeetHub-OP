@@ -35,6 +35,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/SaranshOp/LeetHub-OP/tree/master/0735-asteroid-collision) |
 | [0890-lemonade-change](https://github.com/SaranshOp/LeetHub-OP/tree/master/0890-lemonade-change) |
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1325-path-with-maximum-probability](https://github.com/SaranshOp/LeetHub-OP/tree/master/1325-path-with-maximum-probability) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -62,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0264-ugly-number-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/0264-ugly-number-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SaranshOp/LeetHub-OP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -81,6 +83,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
+| [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
