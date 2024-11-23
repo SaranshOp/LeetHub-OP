@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
 | [1940-maximum-xor-for-each-query](https://github.com/SaranshOp/LeetHub-OP/tree/master/1940-maximum-xor-for-each-query) |
+| [1972-rotating-the-box](https://github.com/SaranshOp/LeetHub-OP/tree/master/1972-rotating-the-box) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/SaranshOp/LeetHub-OP/tree/master/2067-maximum-number-of-points-with-cost) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2179-most-beautiful-item-for-each-query](https://github.com/SaranshOp/LeetHub-OP/tree/master/2179-most-beautiful-item-for-each-query) |
@@ -85,6 +86,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
+| [1972-rotating-the-box](https://github.com/SaranshOp/LeetHub-OP/tree/master/1972-rotating-the-box) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2794-maximum-number-of-moves-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2794-maximum-number-of-moves-in-a-grid) |
 ## Greedy
@@ -225,6 +227,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
+| [1972-rotating-the-box](https://github.com/SaranshOp/LeetHub-OP/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SaranshOp/LeetHub-OP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
