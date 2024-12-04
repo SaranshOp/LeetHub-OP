@@ -135,6 +135,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0735-asteroid-collision](https://github.com/SaranshOp/LeetHub-OP/tree/master/0735-asteroid-collision) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 ## Simulation
 |  |
@@ -246,6 +247,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1972-rotating-the-box](https://github.com/SaranshOp/LeetHub-OP/tree/master/1972-rotating-the-box) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2488-divide-intervals-into-minimum-number-of-groups](https://github.com/SaranshOp/LeetHub-OP/tree/master/2488-divide-intervals-into-minimum-number-of-groups) |
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/SaranshOp/LeetHub-OP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SaranshOp/LeetHub-OP/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -325,6 +327,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
+| [2236-maximum-twin-sum-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Eulerian Circuit
 |  |
 | ------- |
