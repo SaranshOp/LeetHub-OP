@@ -2,54 +2,33 @@ class Solution {
 public:
     vector<bool> isArraySpecial(vector<int>& nums,
                                 vector<vector<int>>& queries) {
-        vector<bool> ans(queries.size());
-        vector<int> violatingIndices;
+        int n = nums.size();
+        //set<pair<int, int>> indices;
+        vector<bool> ans;
+        vector<int> prefix;
+        int num = 0;
 
-        for (int i = 1; i < nums.size(); i++) {
-            // same parity, found violating index
-            if (nums[i] % 2 == nums[i - 1] % 2) {
-                violatingIndices.push_back(i);
+        prefix.push_back(num);
+        int p = nums[0] % 2, p1;
+
+        for (int i = 1; i < n; i++) {
+            p1 = nums[i] % 2;
+            if (p == p1) {
+                prefix.push_back(++num);
+            } else {
+                prefix.push_back(num);
             }
+            p = p1;
         }
 
-        for (int i = 0; i < queries.size(); i++) {
-            vector<int> query = queries[i];
-            int start = query[0];
-            int end = query[1];
-
-            bool foundViolatingIndex =
-                binarySearch(start + 1, end, violatingIndices);
-
-            if (foundViolatingIndex) {
-                ans[i] = false;
+        for (auto q : queries) {
+            if (prefix[q[0]] == prefix[q[1]]) {
+                ans.push_back(true);
             } else {
-                ans[i] = true;
+                ans.push_back(false);
             }
         }
 
         return ans;
-    }
-
-private:
-    bool binarySearch(int start, int end, vector<int>& violatingIndices) {
-        int left = 0;
-        int right = violatingIndices.size() - 1;
-        while (left <= right) {
-            int mid = left + (right - left) / 2;
-            int violatingIndex = violatingIndices[mid];
-
-            if (violatingIndex < start) {
-                // check right half
-                left = mid + 1;
-            } else if (violatingIndex > end) {
-                // check left half
-                right = mid - 1;
-            } else {
-                // violatingIndex falls in between start and end
-                return true;
-            }
-        }
-
-        return false;
     }
 };
