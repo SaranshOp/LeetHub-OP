@@ -76,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2581-divide-players-into-teams-of-equal-skill](https://github.com/SaranshOp/LeetHub-OP/tree/master/2581-divide-players-into-teams-of-equal-skill) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -131,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2580-circular-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/2580-circular-sentence) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/SaranshOp/LeetHub-OP/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3451-string-compression-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/3451-string-compression-iii) |
 ## Stack
 |  |
@@ -174,6 +176,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2188-minimized-maximum-of-products-distributed-to-any-store](https://github.com/SaranshOp/LeetHub-OP/tree/master/2188-minimized-maximum-of-products-distributed-to-any-store) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/SaranshOp/LeetHub-OP/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2716-prime-subtraction-operation](https://github.com/SaranshOp/LeetHub-OP/tree/master/2716-prime-subtraction-operation) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3427-special-array-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/3427-special-array-ii) |
 ## Heap (Priority Queue)
 |  |
@@ -201,6 +204,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SaranshOp/LeetHub-OP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -240,6 +244,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1755-defuse-the-bomb](https://github.com/SaranshOp/LeetHub-OP/tree/master/1755-defuse-the-bomb) |
 | [2599-take-k-of-each-character-from-left-and-right](https://github.com/SaranshOp/LeetHub-OP/tree/master/2599-take-k-of-each-character-from-left-and-right) |
+| [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3522-find-the-power-of-k-size-subarrays-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3522-find-the-power-of-k-size-subarrays-i) |
 ## Two Pointers
 |  |
