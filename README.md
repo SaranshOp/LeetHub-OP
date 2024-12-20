@@ -160,6 +160,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Design
@@ -197,6 +198,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/SaranshOp/LeetHub-OP/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## Data Stream
@@ -310,6 +312,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0787-sliding-puzzle](https://github.com/SaranshOp/LeetHub-OP/tree/master/0787-sliding-puzzle) |
 | [2375-minimum-obstacle-removal-to-reach-corner](https://github.com/SaranshOp/LeetHub-OP/tree/master/2375-minimum-obstacle-removal-to-reach-corner) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2646-kth-largest-sum-in-a-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2646-kth-largest-sum-in-a-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 | [2711-minimum-time-to-visit-a-cell-in-a-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2711-minimum-time-to-visit-a-cell-in-a-grid) |
@@ -323,6 +326,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2201-valid-arrangement-of-pairs](https://github.com/SaranshOp/LeetHub-OP/tree/master/2201-valid-arrangement-of-pairs) |
+| [2493-reverse-odd-levels-of-binary-tree](https://github.com/SaranshOp/LeetHub-OP/tree/master/2493-reverse-odd-levels-of-binary-tree) |
 | [2677-cousins-in-binary-tree-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/2677-cousins-in-binary-tree-ii) |
 ## String Matching
 |  |
