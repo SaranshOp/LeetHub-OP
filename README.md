@@ -114,6 +114,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0605-can-place-flowers](https://github.com/SaranshOp/LeetHub-OP/tree/master/0605-can-place-flowers) |
 | [0649-dota2-senate](https://github.com/SaranshOp/LeetHub-OP/tree/master/0649-dota2-senate) |
 | [0670-maximum-swap](https://github.com/SaranshOp/LeetHub-OP/tree/master/0670-maximum-swap) |
+| [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/SaranshOp/LeetHub-OP/tree/master/0890-lemonade-change) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
@@ -128,6 +129,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
 | [0394-decode-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0394-decode-string) |
 | [0649-dota2-senate](https://github.com/SaranshOp/LeetHub-OP/tree/master/0649-dota2-senate) |
+| [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
@@ -148,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0394-decode-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0394-decode-string) |
+| [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/SaranshOp/LeetHub-OP/tree/master/0735-asteroid-collision) |
 | [0780-max-chunks-to-make-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/0780-max-chunks-to-make-sorted) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/SaranshOp/LeetHub-OP/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
@@ -225,6 +228,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0120-triangle](https://github.com/SaranshOp/LeetHub-OP/tree/master/0120-triangle) |
 | [0264-ugly-number-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/0264-ugly-number-ii) |
 | [0300-longest-increasing-subsequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/0300-longest-increasing-subsequence) |
+| [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2067-maximum-number-of-points-with-cost](https://github.com/SaranshOp/LeetHub-OP/tree/master/2067-maximum-number-of-points-with-cost) |
