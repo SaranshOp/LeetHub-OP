@@ -39,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0892-shortest-subarray-with-sum-at-least-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0892-shortest-subarray-with-sum-at-least-k) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
 | [1325-path-with-maximum-probability](https://github.com/SaranshOp/LeetHub-OP/tree/master/1325-path-with-maximum-probability) |
+| [1364-tuple-with-same-product](https://github.com/SaranshOp/LeetHub-OP/tree/master/1364-tuple-with-same-product) |
 | [1496-lucky-numbers-in-a-matrix](https://github.com/SaranshOp/LeetHub-OP/tree/master/1496-lucky-numbers-in-a-matrix) |
 | [1570-final-prices-with-a-special-discount-in-a-shop](https://github.com/SaranshOp/LeetHub-OP/tree/master/1570-final-prices-with-a-special-discount-in-a-shop) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/SaranshOp/LeetHub-OP/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -78,6 +79,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0264-ugly-number-ii](https://github.com/SaranshOp/LeetHub-OP/tree/master/0264-ugly-number-ii) |
 | [0560-subarray-sum-equals-k](https://github.com/SaranshOp/LeetHub-OP/tree/master/0560-subarray-sum-equals-k) |
 | [1147-flip-columns-for-maximum-number-of-equal-rows](https://github.com/SaranshOp/LeetHub-OP/tree/master/1147-flip-columns-for-maximum-number-of-equal-rows) |
+| [1364-tuple-with-same-product](https://github.com/SaranshOp/LeetHub-OP/tree/master/1364-tuple-with-same-product) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SaranshOp/LeetHub-OP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
@@ -227,6 +229,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Counting
 |  |
 | ------- |
+| [1364-tuple-with-same-product](https://github.com/SaranshOp/LeetHub-OP/tree/master/1364-tuple-with-same-product) |
 | [2163-kth-distinct-string-in-an-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/2163-kth-distinct-string-in-an-array) |
 | [2356-largest-combination-with-bitwise-and-greater-than-zero](https://github.com/SaranshOp/LeetHub-OP/tree/master/2356-largest-combination-with-bitwise-and-greater-than-zero) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
