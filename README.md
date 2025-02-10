@@ -122,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [0780-max-chunks-to-make-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/0780-max-chunks-to-make-sorted) |
 | [0890-lemonade-change](https://github.com/SaranshOp/LeetHub-OP/tree/master/0890-lemonade-change) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/SaranshOp/LeetHub-OP/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
 | [2095-minimum-number-of-swaps-to-make-the-string-balanced](https://github.com/SaranshOp/LeetHub-OP/tree/master/2095-minimum-number-of-swaps-to-make-the-string-balanced) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -138,6 +139,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0678-valid-parenthesis-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0678-valid-parenthesis-string) |
 | [0812-rotate-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0812-rotate-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/SaranshOp/LeetHub-OP/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1667-find-kth-bit-in-nth-binary-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/1667-find-kth-bit-in-nth-binary-string) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
@@ -290,6 +292,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0011-container-with-most-water](https://github.com/SaranshOp/LeetHub-OP/tree/master/0011-container-with-most-water) |
 | [0151-reverse-words-in-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0151-reverse-words-in-a-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/0345-reverse-vowels-of-a-string) |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/SaranshOp/LeetHub-OP/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 | [1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence](https://github.com/SaranshOp/LeetHub-OP/tree/master/1566-check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence) |
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1923-sentence-similarity-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/1923-sentence-similarity-iii) |
@@ -407,4 +410,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2434-design-a-number-container-system](https://github.com/SaranshOp/LeetHub-OP/tree/master/2434-design-a-number-container-system) |
+## Binary Indexed Tree
+|  |
+| ------- |
+| [1356-minimum-number-of-moves-to-make-palindrome](https://github.com/SaranshOp/LeetHub-OP/tree/master/1356-minimum-number-of-moves-to-make-palindrome) |
 <!---LeetCode Topics End-->
