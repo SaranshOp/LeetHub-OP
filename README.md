@@ -152,6 +152,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3018-make-string-a-subsequence-using-cyclic-increments](https://github.com/SaranshOp/LeetHub-OP/tree/master/3018-make-string-a-subsequence-using-cyclic-increments) |
 | [3267-find-longest-special-substring-that-occurs-thrice-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3267-find-longest-special-substring-that-occurs-thrice-i) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/3309-count-prefix-and-suffix-pairs-i) |
+| [3447-clear-digits](https://github.com/SaranshOp/LeetHub-OP/tree/master/3447-clear-digits) |
 | [3451-string-compression-iii](https://github.com/SaranshOp/LeetHub-OP/tree/master/3451-string-compression-iii) |
 ## Stack
 |  |
@@ -166,6 +167,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/SaranshOp/LeetHub-OP/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
+| [3447-clear-digits](https://github.com/SaranshOp/LeetHub-OP/tree/master/3447-clear-digits) |
 ## Simulation
 |  |
 | ------- |
@@ -175,6 +177,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/SaranshOp/LeetHub-OP/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2470-removing-stars-from-a-string](https://github.com/SaranshOp/LeetHub-OP/tree/master/2470-removing-stars-from-a-string) |
 | [3434-find-the-number-of-distinct-colors-among-the-balls](https://github.com/SaranshOp/LeetHub-OP/tree/master/3434-find-the-number-of-distinct-colors-among-the-balls) |
+| [3447-clear-digits](https://github.com/SaranshOp/LeetHub-OP/tree/master/3447-clear-digits) |
 ## Tree
 |  |
 | ------- |
