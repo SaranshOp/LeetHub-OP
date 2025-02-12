@@ -11,24 +11,27 @@ private:
 
 public:
     int maximumSum(vector<int>& nums) {
-        vector<pair<int, int>> p;
-        
+        vector<priority_queue<int, vector<int>, greater<int>>> g(82);
+        int mx = -1;
+
         for (int x : nums) {
             int s = calculateDigitSum(x);
-            p.push_back({s, x});
-        }
-        
-        sort(p.begin(), p.end());
-        
-        int mx = -1;
-        
-        for (int i = 1; i < p.size(); i++) {
-            if (p[i].first == p[i-1].first) {
-                int sum = p[i].second + p[i-1].second;
-                mx = max(mx, sum);
+            g[s].push(x);
+            
+            if (g[s].size() > 2) {
+                g[s].pop();
             }
         }
-        
+
+        for (auto& h : g) {
+            if (h.size() == 2) {
+                int a = h.top();
+                h.pop();
+                int b = h.top();
+                mx = max(mx, a + b);
+            }
+        }
+
         return mx;
     }
 };
