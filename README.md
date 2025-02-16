@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1679-shortest-subarray-to-be-removed-to-make-array-sorted](https://github.com/SaranshOp/LeetHub-OP/tree/master/1679-shortest-subarray-to-be-removed-to-make-array-sorted) |
 | [1755-defuse-the-bomb](https://github.com/SaranshOp/LeetHub-OP/tree/master/1755-defuse-the-bomb) |
 | [1766-minimum-number-of-removals-to-make-mountain-array](https://github.com/SaranshOp/LeetHub-OP/tree/master/1766-minimum-number-of-removals-to-make-mountain-array) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 | [1876-map-of-highest-peak](https://github.com/SaranshOp/LeetHub-OP/tree/master/1876-map-of-highest-peak) |
 | [1878-check-if-array-is-sorted-and-rotated](https://github.com/SaranshOp/LeetHub-OP/tree/master/1878-check-if-array-is-sorted-and-rotated) |
 | [1886-minimum-limit-of-balls-in-a-bag](https://github.com/SaranshOp/LeetHub-OP/tree/master/1886-minimum-limit-of-balls-in-a-bag) |
@@ -356,6 +357,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0079-word-search](https://github.com/SaranshOp/LeetHub-OP/tree/master/0079-word-search) |
 | [1715-split-a-string-into-the-max-number-of-unique-substrings](https://github.com/SaranshOp/LeetHub-OP/tree/master/1715-split-a-string-into-the-max-number-of-unique-substrings) |
+| [1819-construct-the-lexicographically-largest-valid-sequence](https://github.com/SaranshOp/LeetHub-OP/tree/master/1819-construct-the-lexicographically-largest-valid-sequence) |
 ## Breadth-First Search
 |  |
 | ------- |
