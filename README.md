@@ -375,6 +375,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0177-nth-highest-salary](https://github.com/SaranshOp/LeetHub-OP/tree/master/0177-nth-highest-salary) |
 | [0262-trips-and-users](https://github.com/SaranshOp/LeetHub-OP/tree/master/0262-trips-and-users) |
 | [1153-product-sales-analysis-i](https://github.com/SaranshOp/LeetHub-OP/tree/master/1153-product-sales-analysis-i) |
+| [1415-students-and-examinations](https://github.com/SaranshOp/LeetHub-OP/tree/master/1415-students-and-examinations) |
 | [1827-invalid-tweets](https://github.com/SaranshOp/LeetHub-OP/tree/master/1827-invalid-tweets) |
 ## Depth-First Search
 |  |
